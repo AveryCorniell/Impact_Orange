@@ -1,0 +1,40 @@
+CREATE TABLE happiness2021 (
+ country text PRIMARY KEY NOT NULL,
+ Regional_indicator TEXT,
+ Ladder_score numeric,
+ Standard_error_of_ladder_score numeric,
+ upperwhisker numeric,
+ lowerwhisker numeric,
+Logged_GDP_per_capita numeric,
+Social_support numeric,
+Healthy_life_expectancy numeric,
+Freedom_to_make_life_choices numeric,
+Generosity numeric,
+Perceptions_of_corruption numeric,
+Ladder_score_in_Dystopia numeric,
+Explained_by_Log_GDP_per_capita numeric,
+Explained_by_Social_support numeric,
+Explained_by_Healthy_life_expectancy numeric,
+Explained_by_Freedom_to_make_life_choices numeric,
+Explained_by_Generosity numeric,
+Explained_by_Perceptions_of_corruption numeric,
+Dystopia_residual numeric
+);
+
+SELECT * FROM happiness2021
+
+CREATE TABLE happiness_multiyear (
+	country text ,
+	year numeric,
+	Life_Ladder numeric,
+	Log_GDP_per_capita numeric,
+	Social_support numeric,
+	Healthy_life_expectancy_at_birth numeric,
+	Freedom_to_make_life_choices numeric,
+	Generosity numeric,
+	Perceptions_of_corruption numeric,
+	Positive_affect numeric,
+	Negative_affect numeric
+	);
+	
+SELECT * FROM happiness_multiyear
