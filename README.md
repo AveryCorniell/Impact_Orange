@@ -21,7 +21,7 @@ Rabbikul Islam, Taylor Downes, John Thomas, Avery Corniell
 We have set up a database using AWS that is linked to PgAdmin. We are accessing the data from PgAdmin using SqlAlchmey in Python. 
 
 ## Presentation
-Add Link to presentation here
+[World Happiness Presentation](https://docs.google.com/presentation/d/1DQCJWWW_E6fGEbxMv9UcxUlvG9ovxFiaSAVMZq7xELc/edit#slide=id.g100744b09ef_0_29)
 
 ## Dashboard
 Discuss using html or tableau. 
