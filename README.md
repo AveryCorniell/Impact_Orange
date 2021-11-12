@@ -24,7 +24,7 @@ We have set up a database using AWS that is linked to PgAdmin. We are accessing 
 [World Happiness Presentation](https://docs.google.com/presentation/d/1DQCJWWW_E6fGEbxMv9UcxUlvG9ovxFiaSAVMZq7xELc/edit#slide=id.g100744b09ef_0_29)
 
 ## Dashboard
-Discuss using html or tableau. 
+[World Happiness Dashboard | Tableau](https://public.tableau.com/app/profile/john6384/viz/2021WorldHappinessMap/Dashboard1?publish=yes) 
 
 ## Data Vizualization
 Create charts using Matplotlib (a few already created - see cleanup.ipynb)
