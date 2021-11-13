@@ -30,8 +30,12 @@ We have set up a database using AWS that is linked to PgAdmin. We are accessing 
 Create charts using Matplotlib (a few already created - see cleanup.ipynb)
 Create maps using javascript leaflet. 
 
-## Machine Learning
-Linear Regression
+## Machine Learning - Linear Regression
+
+- Resources:
+    - World_Happiness_Machine_Learning.ipynb - initial model
+    - Machine_Learning_Feature_Importance.ipynb - Includes the initial model and the feature importance process of dropping each feature and re-running the model.
+
 ### Data Preprocessing
 - In order to get our data ready for testing, we connected and pulled our data through our database, dropped null data, and created boxplots for our data to determine and drop any outliers in the dataset.
 
