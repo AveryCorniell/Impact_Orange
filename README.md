@@ -74,10 +74,30 @@ Create maps using javascript leaflet.
 ![image](https://user-images.githubusercontent.com/84201614/141652839-0c07504e-9853-4c5c-8840-1697469c46ca.png)
 
 ### Additional Training
-- In orer to see if we could improve our accuracy score of our linear regression model, we dropped each feature from the dataset and re-ran the model to test the relationship between the features and the accuracy of our model. 
+- In order to see if we could improve our accuracy score of our linear regression model, we dropped each feature from the dataset and re-ran the model to test the relationship between the features and the accuracy of our model. 
 
 ![image](https://user-images.githubusercontent.com/84201614/141653033-f9e0e7ee-e629-414b-9be6-e07b49a436ab.png)
 
 - We can see that when dropping social support from the dataset, the accuracy score drops the most by -0.004. This means social support is the most valuable feature to our model. Perceptions of corruption is the least impactful to our machine learning accuracy score, increasing the score by .02 when corruption was dropped.
+
+## Machine Learning - Random Forest Regression
+Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. 
+
+Steps taken:
+- Imported data and created a dataframe for our features and target
+- Split the data into training and testing sets
+    - Training (75%)
+    - Testing (25%)
+- Calculated the average baseline error (3.81 for our data) to provide a goal for our model
+- Use Random Forest Regression (1,000 decision trees to predict the data)
+- Calculated the mean absolute percentage error and R^2 score
+    - MAPE : 0.38 (beat our baseline!)
+    - R^2 : 92.95% (beat our linear regression model!)
+- After our initial model, we limited the depth of the tree to 3 levels and decision trees to 10 and used the top 3 features to see how that would impact the accuracy
+    - R^2 decreased from 92.95% to 92.53%
+- Determined feature importances:
+    - The top 3 features appear to be the same as the linear regression model (GDP, Social Support, and Healthy life expectancy), however, the most important feature in this model was Healthy life expectancy as opposed to social support in our linear regression model.
+    
+![image](https://user-images.githubusercontent.com/84201614/141703121-b43450fb-2898-4736-aa02-2fd80a44059c.png)
 
 
