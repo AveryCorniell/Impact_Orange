@@ -45,8 +45,7 @@ We have set up a database using AWS that is linked to PgAdmin. We are accessing 
 [World Happiness Dashboard | Tableau](https://public.tableau.com/app/profile/john6384/viz/2021WorldHappinessMap/Dashboard1?publish=yes) 
 
 ## Data Vizualization
-Create charts using Matplotlib (a few already created - see cleanup.ipynb)
-Create maps using javascript leaflet. 
+All visualizations are created through Tableau.
 
 ## Machine Learning - Linear Regression
 
