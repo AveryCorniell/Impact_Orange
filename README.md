@@ -1,7 +1,25 @@
 # Impact_Orange
 
 ## Overview
-What makes one country happier than another? What factors around the world have the highest correlation to a country's happiness? A country's happines is calculated using 6 standard factors along with an additional factor - Dystopia Residual to create one happiness score. From initial analysis the main contributing factor to happiness is the Dystopia Residual. The Dsytopia Residual is a number left over from the normalization of variables that cannot be explained. The main focus of this project is to determine what external factor(s) make up the Dystopia Residual score. Analysis of population density, infant mortality rates, suicide rates, unemployment, and yearly precipitation against the top and bottom scoring countries will help determine whether or not these factors contribute to happiness. 
+What makes one country happier than another? What factors around the world have the highest correlation to a country's happiness? A country's happines is evaluated using 6 standard factors: Log GDP per Capita, Social Support, Healthy Life Expectancy at Birth, Generosity, Freedom to Make Life Choices, and Perception of Corruption. Our goal is to provide a solution for how a country can improve its happiness as well as to predict world happiness based on our data.
+
+## What is the World Happiness (Life Ladder) Score?
+-  The survey measure of World Happiness is from the Feb 26, 2021 release of the Gallup World Poll (GWP) covering years from 2005 to 2020. It is the national average response to the question of life evaluations. The question is “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?”
+
+## World Happiness Factors:
+- Log GDP per Capita
+     - From the October 14, 2020 update of the World Development Indicators (WDI). The GDP figures for Taiwan, Syria, Palestine, Venezuela, Djibouti and Ymen are from the Penn World Table 9.1. 
+- Social Support
+    - National average of the binary responses (either 0 or 1) to the GWP question “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?” 
+- Healthy Life Expectancy at Birth
+     - Healthy life expectancies at birth are based on the data extracted from the World Health Organization’s (WHO) Global Health Observatory data repository (Last updated: 2020-09-28)
+- Generosity
+    - national average of response to the GWP question “Have you donated money to a charity in the past month?” on GDP per capita.
+- Freedom to Make Life Choices
+    -“Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”
+- Perceptions of Corruption
+     - “Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not?” The overall perception is just the average of the two 0-or-1 responses
+
 
 ### Questions to Answer
 - Who are the top 5 and bottom 5 happiest countries?
