@@ -46,6 +46,20 @@ We have set up a database using AWS that is linked to PgAdmin. We are accessing 
 
 ## Data Vizualization
 All visualizations are created through Tableau.
+### Filtering for the Top 5 Happies Countries in the world. 
+![](gifs/Top_5_Countries.gif)
+
+### Filtering for the 5 Least Happy Countries in the world. 
+![](gifs/Bottom_5_Countries.gif)
+
+### Filtering the dashboard by Country
+![](gifs/Filter_by_Country.gif)
+
+### Filtering the dashboard by region
+![](gifs/Filter_by_Region.gif)
+
+### Filtering the dashboard by outliers
+![](gifs/Filter_Outliers.gif)
 
 ## Machine Learning - Linear Regression
 
