@@ -132,4 +132,19 @@ Steps taken:
 ![image](https://user-images.githubusercontent.com/84201614/141703121-b43450fb-2898-4736-aa02-2fd80a44059c.png)
 
 ## Summary
+- Log GDP per Capita
+    - Education & training
+    - Government investments to infrastructure
+- Social Support
+    - Focus on improving culture
+    - Improve education - incorporate social moral methods
+- Healthy Life Expectancy
+    - Increase access to the healthcare system
+    - Increase GDP per capita (increases economic growth & development)
+
 ## Future Work
+- Change database to sqlite
+- See if COVID-19 had an effect on happiness scores from 2020-2021
+- Normalize our data 
+- Convert dashboard into Tableau Story
+- Research other factors that could improve happiness scores.
